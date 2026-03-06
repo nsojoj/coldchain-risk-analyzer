@@ -43,7 +43,6 @@ st.markdown("""
 
 # ── Header ───────────────────────────────────────────────────────────────────
 st.markdown("## ❄️ ColdChain Risk Analyzer")
-st.markdown("**Modelo de sublimación · Simulación Monte Carlo · Análisis de riesgo logístico**")
 st.divider()
 
 # ── Sidebar — Parámetros ─────────────────────────────────────────────────────
