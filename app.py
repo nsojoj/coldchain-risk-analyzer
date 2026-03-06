@@ -133,7 +133,7 @@ with tab1:
                    annotation_text=f"Viaje normal ({duracion}h)", annotation_position="top right")
     fig1.add_vline(x=escenarios["tiempo_retraso"], line_dash="dash", line_color="#ff4d4d",
                    annotation_text=f"Con retraso ({escenarios['tiempo_retraso']:.1f}h)", annotation_position="top left")
-    fig1.add_hline(y=0, line_color="#ffffff44")
+    fig1.add_hline(y=0, line_color="rgba(255,255,255,0.27)")
 
     fig1.update_layout(
         template="plotly_dark", height=380,
